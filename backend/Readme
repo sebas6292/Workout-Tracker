@@ -1,0 +1,27 @@
+Server.js - is where we register Express, its the entry point
+
+install node.js 
+
+npm init -y : creates the package.json
+
+npm i express 
+
+npm i -g nodemon : automatically and detects when theres a change
+
+.env helps to keep your code hidden from outside sources 
+
+npm i dotenv : loads env variable into the process object in a node.js environment 
+
+npm i bcrypt 
+ 
+npm i jsonwebtoken
+
+  "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "validator": "^13.7.0"
+  }
